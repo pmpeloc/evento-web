@@ -11,6 +11,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -20,9 +21,36 @@ img {
 
 /* Globales */
 
+h1,
+h2,
+h3 {
+  margin: 0 0 2rem 0;
+  color: #3b4754;
+}
+
+h1 {
+  font-size: 4.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .container {
   width: min(90%, 117.6rem);
   margin: 0 auto;
+}
+
+.btn-primary {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fcfcfc;
+  display: block;
+  background-color: #29323d;
+  width: fit-content;
+  padding: 2.7rem 5.5rem;
 }
 
 /* Utilidades */
@@ -55,4 +83,32 @@ img {
 
 .redes-sociales img {
   width: 3rem;
+}
+
+/* Hero */
+
+.hero {
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-info {
+  height: 54.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-info h1 {
+  width: 53rem;
+}
+
+.hero-info p {
+  font-size: 2.6rem;
+  color: #8396aa;
+  margin: 1rem 0 5.8rem 0;
 }
