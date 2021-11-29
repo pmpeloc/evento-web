@@ -221,6 +221,12 @@ a {
   column-gap: 4rem;
 }
 
+.agenda-hora {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .agenda-hora p {
   width: 12.3rem;
   font-size: 2.1rem;
@@ -244,4 +250,10 @@ a {
   color: #8194a9;
   padding-left: 1rem;
   margin-top: 0;
+}
+
+.agenda-linea {
+  width: 0.6rem;
+  height: 100%;
+  background-color: #edf0f4;
 }
