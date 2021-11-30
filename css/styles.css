@@ -295,7 +295,7 @@ a {
 
 .testimoniales-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 56.6rem 1fr;
   column-gap: 5.4rem;
   align-items: center;
   margin-top: 9rem;
@@ -318,9 +318,10 @@ a {
 
 .testimonial {
   height: 31.5rem;
-  border: 0.2rem solid #e1e1e1;
+  border: 0.3rem solid #e1e1e1;
   border-radius: 1rem;
-  padding: 4.2rem 3.5rem;
+  padding: 3.5rem;
+  box-shadow: 0px 5px 11px -4px #d6d6d6;
 }
 
 .testimonial p:first-child {
@@ -329,6 +330,7 @@ a {
   color: #8194a9;
   width: 46rem;
   line-height: 1.5;
+  margin-top: 0;
 }
 
 .testimonial-grid {
@@ -340,6 +342,7 @@ a {
 
 .testimonial-grid img {
   width: 9rem;
+  max-width: unset;
 }
 
 .img-flex {
@@ -353,9 +356,30 @@ a {
   font-weight: 900;
   font-style: normal;
   color: #3b4754;
-  margin-bottom: 1rem;
+  margin-block: 0;
 }
 
 .testimonial-info p:last-child {
-  margin-top: 1rem;
+  margin: 0.6rem 0 0 0;
+}
+
+.testimonial-dots {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.testimonial-dots div {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #c9d3dd;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.testimonial-dots div:hover {
+  transform: scale(1.5);
+  background-color: #29323d;
+  cursor: pointer;
 }
