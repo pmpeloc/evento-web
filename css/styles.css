@@ -383,3 +383,40 @@ a {
   background-color: #29323d;
   cursor: pointer;
 }
+
+/* Ubicación */
+
+.ubicacion {
+  border-top: 0.1rem solid #e1e1e1;
+  padding-top: 9rem;
+  margin-bottom: 9.9rem;
+}
+
+.ubicacion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.5rem;
+}
+
+.ubicacion-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ubicacion-info p {
+  width: 37rem;
+  line-height: 1.5;
+  margin-bottom: 6rem;
+  font-size: 2rem;
+}
+
+.ubicacion-info img {
+  width: 100%;
+}
+
+.ubicacion-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
