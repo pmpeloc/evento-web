@@ -452,3 +452,25 @@ a {
   max-width: unset;
   border-radius: 1rem;
 }
+
+/* Footer */
+
+.footer-site {
+  border-top: 0.1rem solid #e1e1e1;
+}
+
+.footer-site-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11rem;
+}
+
+.redes-sociales img {
+  width: 2.4rem;
+}
+
+.copyright {
+  color: #8194a9;
+  font-size: 2rem;
+}
