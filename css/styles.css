@@ -60,6 +60,7 @@ a {
   background-color: #29323d;
   width: fit-content;
   padding: 2.7rem 5.5rem;
+  border-radius: 0.5rem;
 }
 
 .btn-secondary {
@@ -67,8 +68,8 @@ a {
   font-weight: 700;
   font-size: 2rem;
   color: #29323d;
-  border: 3px solid #29323d;
-  border-radius: 7px;
+  border: 0.3rem solid #29323d;
+  border-radius: 0.7rem;
   display: block;
   background-color: #ffffff;
   width: fit-content;
