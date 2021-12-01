@@ -179,6 +179,7 @@ a {
   font-size: 2.1rem;
   font-weight: 900;
   line-height: 1.5;
+  color: #3b4754;
 }
 
 .speakers-grid {
@@ -234,6 +235,7 @@ a {
   font-size: 2.1rem;
   font-weight: 900;
   line-height: 1.5;
+  color: #3b4754;
 }
 
 .agenda-horario-grid {
@@ -410,6 +412,7 @@ a {
   line-height: 1.5;
   margin-bottom: 6rem;
   font-size: 2rem;
+  color: #3b4754;
 }
 
 .ubicacion-info img {
